@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Silveira - Contato</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Entre em Contato</h1>
+        
+        <p>Gostaria de conversar sobre projetos, oportunidades sobre programação? Envie uma mensagem através do formulário abaixo:</p>
+        
+        <h2>Formulário de Contato</h2>
+        
+        <form class="formulario-contato" action="#" method="post">
+            <div class="campo">
+                <label for="nome">Nome e Sobrenome *</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            </div>
+            
+            <div class="campo">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+            
+            <div class="campo">
+                <label for="assunto">Assunto *</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Sobre o que você gostaria de conversar?" required>
+            </div>
+            
+            <div class="campo">
+                <label for="mensagem">Mensagem *</label>
+                <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+        
+        <h2>Outras Formas de Contato</h2>
+        
+        <div class="info-contato">
+            <div class="contato-item">
+                <h3>E-mail</h3>
+                <p>netosilveira1907@gmail.com</p>
+            </div>
+            
+            <div class="contato-item">
+                <h3>WhatsApp</h3>
+                <p>(81) 99900-2071</p>
+            </div>
+            
+            <div class="contato-item">
+                <h3>Localização</h3>
+                <p>Carpina, PE - Brasil</p>
+            </div>
+        
+        <div class="aviso">
+            <p><strong>Observação:</strong> Este formulário é apenas visual para fins acadêmicos. 
+            Para entrar em contato real, utilize o e-mail acima ou número do WhatsApp.</p>
+        </div>
+    </div>
+</body>
+</html>
